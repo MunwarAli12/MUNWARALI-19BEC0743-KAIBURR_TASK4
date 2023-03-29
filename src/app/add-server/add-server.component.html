@@ -1,0 +1,21 @@
+<div class="container m-3">
+    <form [formGroup]="addServerForm">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Id</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="id">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputname" class="form-label">Name</label>
+            <input type="email" class="form-control" id="exampleInputname" aria-describedby="emailHelp" formControlName="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputlanguage" class="form-label">Language</label>
+            <input type="email" class="form-control" id="exampleInputlanguage" aria-describedby="emailHelp" formControlName="language">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputframework" class="form-label">Framework</label>
+            <input type="email" class="form-control" id="exampleInputframework" aria-describedby="emailHelp" formControlName="framework">
+          </div>
+        <button type="submit" class="btn btn-dark" (click)="onSubmit()" [disabled]="addServerForm.invalid">Submit</button>
+      </form>
+</div>

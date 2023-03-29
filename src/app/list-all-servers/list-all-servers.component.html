@@ -1,0 +1,11 @@
+<div class="container m-3">
+    <div class="card  w-25 m-3" *ngFor="let server of servers">
+        <div class="card-body">
+          <h5 class="card-title">Server Id: {{server.id}}</h5>
+          <p class="card-text">Server Name: {{server.name}}</p>
+          <p class="card-text">Server Language: {{server.language}}</p>
+          <p class="card-text">Server Framework: {{server.framework}}</p>
+          <a href="#" class="btn btn-danger" (click)="deleteServer(server.id)">delete</a>
+        </div>
+      </div>
+</div>

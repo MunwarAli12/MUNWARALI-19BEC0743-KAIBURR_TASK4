@@ -1,0 +1,20 @@
+<div class="container m-3">
+    <div class="row">
+        <div class="col">
+            <label for="searchbar" class="m-2">Enter the server name:</label>
+            <input id="searchbar" class="m-2" type="text" [(ngModel)]="serverName"/>
+            <button type="submit" class="m-2 btn btn-dark" (click)="searchServerByName()">Search</button>
+        </div>
+    </div>
+</div>
+
+<div class="container m-3">
+    <div class="card  w-25 m-3" *ngFor="let server of resultData">
+        <div class="card-body">
+          <h5 class="card-title">Server Id: {{server.id}}</h5>
+          <p class="card-text">Server Name: {{server.name}}</p>
+          <p class="card-text">Server Language: {{server.language}}</p>
+          <p class="card-text">Server Framework: {{server.framework}}</p>
+        </div>
+      </div>
+</div>
