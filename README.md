@@ -1,7 +1,8 @@
-# MUNWARALI-19BEC0743-KAIBURR_TASK4
-Q)Create a basic WEB UI frontend for an application that you created for #1 or #2 using any UI framework of your choice. You should be able to create, show and delete records from your UI.
-Task 4 entails using the Angular framework to build a basic web UI frontend for the REST API developed in Task 1, used the Angular framework and it is a well-known and powerful front-end programming platform that enables developers to easily build dynamic web applications,the task developed web UI frontend application using angular 13 framework integrating with springboot rest api for intercating with mongodb database, perform crud operations like add server,delete server,search by server by using name.
-Technologies used: angular frame work,Type Script,HTMl,CSS.
+For this, I have created a fully functional web application using the Angular framework. The goal was to build a basic web UI frontend for the REST API developed in https://github.com/MunwarAli12/model-java_REST-API_web_application-. Angular is a well-known and powerful front-end programming platform that enables developers to easily build dynamic web applications.
+
+The web UI frontend application was developed using Angular 13 framework, integrating with Springboot REST API to interact with a MongoDB database. The application allows users to perform CRUD operations such as adding servers, deleting servers, and searching for servers by name.
+
+The technologies used to build this application include Angular framework, TypeScript, HTML, and CSS. Overall, this application provides a user-friendly interface for interacting with the REST API and managing server objects in the MongoDB database.
 
 OUTPUT IMAGE:
 ADD SERVER:
