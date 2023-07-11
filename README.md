@@ -1,11 +1,11 @@
-# Task 4.
+# Task 4:)
 - WEB UI Forms. Create a basic WEB UI frontend for an application that you created for #1 or #2 using any UI framework of your choice. You should be able to create, show and delete records from your UI.
 ## WEB UI,
 - For this, I have created a fully functional web application using the Angular framework.
 - The goal was to build a basic web UI frontend for the REST API developed https://github.com/MunwarAli12/model-java_REST-API_web_application-. 
 - The web UI frontend application was developed using Angular 13 framework, integrating with Springboot REST API to interact with a MongoDB database.
 - The application allows users to perform CRUD operations such as adding servers, deleting servers, and searching for servers by name.
-### Tech Used 
+### Tech Used:
 - Angular
 - spring boot
 - Mongodb database
